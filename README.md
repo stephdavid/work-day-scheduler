@@ -38,6 +38,10 @@ The app should:
 
 * I have added today's date - but it's in a cryptic format. Something to ask about in class tonight.
 
+* A good class today. Hat tip to Husman, our instructor for letting us know how to handle "ordinal" numbers. The date now reads as requested.
+
+* As well, I tried to handle the label issue, adding the label and giving it, rather than the textarea or button elements, the bootstrap class attributes. But the display is off. Still a TODO:
+
 
 
 

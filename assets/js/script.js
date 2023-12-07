@@ -1,14 +1,11 @@
 $(document).ready(function () {
 
-    let todaysDate = new Date();
-    // format the date into the "dd-MMM-yyy" format
-    let formattedDate = todaysDate.toString("dd-MMM-yyyy");
+    dayjs.extend(window.dayjs_plugin_advancedFormat)
+    let today = dayjs().format("dddd, MMMM Do");//Thursday, September 5th
+    $("#currentDay").text(today);
 
-    // get the parent element 
-    let currentDay = $("#currentDay");
 
-    // append the date to the parent element "p" - will text work?
-    currentDay.append(formattedDate);
+ 
 
 
 });
