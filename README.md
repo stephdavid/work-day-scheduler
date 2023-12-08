@@ -44,7 +44,7 @@ The app should:
 
 * The next morning: A good reason to use ARIA: Added an aria-label to the textarea and button element for accessibility.
 
-
+* Added jQuery click events for the buttons
 
 
 
@@ -53,14 +53,28 @@ The app should:
 
 ### References
 
-D.js
+Day.js
 https://day.js.org/en/<br>
+
+(Day.js) AdvancedFormat
+https://day.js.org/docs/en/plugin/advanced-format<br>
 
 Day-Planner
 https://github.com/JenG1/Day-Planner/tree/master<br>
 
 W3C - ARIA14: Using aria-label to provide an invisible label where a visible label cannot be used
 https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html<br>
+
+click event
+https://api.jquery.com/click/<br>
+
+How to Set Value of Textarea in jQuery
+https://www.tutorialrepublic.com/faq/how-to-set-value-of-textarea-in-jquery.php<br>
+
+localStorage in JavaScript: A complete guide
+https://blog.logrocket.com/localstorage-javascript-complete-guide/<br>
+
+
 
 
 
