@@ -15,26 +15,40 @@ https://stephdavid.github.io/work-day-scheduler/
 ### Screenshots
 
 
+**Initial View**
+
+![initial view ](work-day-scheduler.png)
+
+---
+
+**View with an stored entry in an hour block**
+
+![one stored entry view ](work-day-scheduler.png)
+
+---
+
+
 ### Acceptance Criteria
 
 The app should:
 
-* Display the current day at the top of the calender when a user opens the planner.
+* Display the current day at the top of the calender when a user opens the planner.✔️
  
-* Present timeblocks for standard business hours when the user scrolls down.
+* Present timeblocks for standard business hours when the user scrolls down.✔️
  
-* Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+* Color-code each timeblock based on past, present, and future when the timeblock is viewed.✔️
  
-* Allow a user to enter an event when they click a timeblock
+* Allow a user to enter an event when they click a timeblock.✔️
 
-* Save the event in local storage when the save button is clicked in that timeblock.
+* Save the event in local storage when the save button is clicked in that timeblock.✔️
 
-* Persist events between refreshes of a page
+* Persist events between refreshes of a page.✔️
 
+---
 
 ### Process
 
-* To begin, I have added the "Timeblocks" rows to the html page. While not required as the provided html and css is in bootstrap, I'll go with the flow. 😊 I've noted (rather VS Code has highlighted) that there are no labels for the elements <textarea> and <button>. The container flex doesn't work when I add them. Something to look into later.
+* To begin, I have added the "Timeblocks" rows to the html page. While not required as the provided html and css is in bootstrap, I'll go with the flow. 😊 I've noted (rather VS Code has highlighted) that there are no labels for the elements **textarea** and **button** The container flex doesn't work when I add them. Something to look into later.
 
 * I have added today's date - but it's in a cryptic format. Something to ask about in class tonight.
 
@@ -58,6 +72,7 @@ The app should:
 
 * Adjusted the fontawesome icon and added text "Save" to make it easier to read and understand the purpose of the button
 
+---
 
 ### References
 
@@ -90,6 +105,9 @@ https://day.js.org/docs/en/query/is-before<br>
 
 Using data attributes
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes<br>
+
+Add and remove a class on click using jQuery?
+https://stackoverflow.com/questions/19520446/add-and-remove-a-class-on-click-using-jquery
 
 
 Why Bootstrap 4 and FontAwesome 5 Are A Killer Combo
