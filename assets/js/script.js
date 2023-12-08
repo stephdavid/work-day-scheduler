@@ -4,6 +4,8 @@ $(document).ready(function () {
     let today = dayjs().format("dddd, MMMM Do");//Thursday, September 5th
     $("#currentDay").text(today);
 
+    let now = dayjs().hour();
+
     let hour9 = $("#hour9");
     let hour10 = $("#hour10");
     let hour11 = $("#hour11");
@@ -13,6 +15,61 @@ $(document).ready(function () {
     let hour3 = $("#hour3");
     let hour4 = $("#hour4");
     let hour5 = $("#hour5");
+
+
+    if (parseInt(hour9.attr('data-hour')) < now) {
+        $(hour9).removeClass("future").addClass("past");
+    } else if (parseInt(hour9.attr('data-hour')) == now) {
+        $(hour9).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour10.attr('data-hour')) < now) {
+        $(hour10).removeClass("future").addClass("past");
+    } else if (parseInt(hour10.attr('data-hour')) == now) {
+        $(hour10).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour11.attr('data-hour')) < now) {
+        $(hour11).removeClass("future").addClass("past");
+    } else if (parseInt(hour11.attr('data-hour')) == now) {
+        $(hour11).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour12.attr('data-hour')) < now) {
+        $(hour12).removeClass("future").addClass("past");
+    } else if (parseInt(hour12.attr('data-hour')) == now) {
+        $(hour12).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour1.attr('data-hour')) < now) {
+        $(hour1).removeClass("future").addClass("past");
+    } else if (parseInt(hour1.attr('data-hour')) == now) {
+        $(hour1).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour2.attr('data-hour')) < now) {
+        $(hour2).removeClass("future").addClass("past");
+    } else if (parseInt(hour2.attr('data-hour')) == now) {
+        $(hour2).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour3.attr('data-hour')) < now) {
+        $(hour3).removeClass("future").addClass("past");
+    } else if (parseInt(hour3.attr('data-hour')) == now) {
+        $(hour3).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour4.attr('data-hour')) < now) {
+        $(hour4).removeClass("future").addClass("past");
+    } else if (parseInt(hour4.attr('data-hour')) == now) {
+        $(hour4).removeClass("future").addClass("present");
+    }
+
+    if (parseInt(hour5.attr('data-hour')) < now) {
+        $(hour5).removeClass("future").addClass("past");
+    } else if (parseInt(hour5.attr('data-hour')) == now) {
+        $(hour5).removeClass("future").addClass("present");
+    }
 
     // if there is a value in local storage get it and display it
     if (localStorage.getItem("hour9")) {

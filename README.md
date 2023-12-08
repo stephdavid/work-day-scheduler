@@ -46,6 +46,10 @@ The app should:
 
 * Added jQuery click events for the buttons
 
+* For every hour block, if there is an item in local storage (if two items, the latest), then get that value and using the jQuery val() method, populate the textarea input element
+
++ Using dayjs, get the current hour. For every hour block determine whether it is earlier or equal to the current hour using a data attribute (data-hour). If earlier, then change the class (background-color) to past, if equal change the class (background-color) to present.
+
 
 
 
@@ -74,7 +78,13 @@ https://www.tutorialrepublic.com/faq/how-to-set-value-of-textarea-in-jquery.php<
 localStorage in JavaScript: A complete guide
 https://blog.logrocket.com/localstorage-javascript-complete-guide/<br>
 
+hour
+https://day.js.org/docs/en/get-set/hour<br>
 
+Is Before
+https://day.js.org/docs/en/query/is-before<br>
 
+Using data attributes
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes<br>
 
 
