@@ -42,6 +42,10 @@ The app should:
 
 * As well, I tried to handle the label issue, adding the label and giving it, rather than the textarea or button elements, the bootstrap class attributes. But the display is off. Still a TODO:
 
+* The next morning: A good reason to use ARIA: Added an aria-label to the textarea and button element for accessibility.
+
+
+
 
 
 
@@ -53,4 +57,10 @@ D.js
 https://day.js.org/en/<br>
 
 Day-Planner
-https://github.com/JenG1/Day-Planner/tree/master
+https://github.com/JenG1/Day-Planner/tree/master<br>
+
+W3C - ARIA14: Using aria-label to provide an invisible label where a visible label cannot be used
+https://www.w3.org/TR/WCAG20-TECHS/ARIA14.html<br>
+
+
+
