@@ -162,11 +162,16 @@ $(document).ready(function () {
         }
     });
 
+    // Add a click event handler for the new button
+    $("#clearAllButton").on("click", function (event) {
+        alert("New button clicked!");
+        
+        event.preventDefault;
+        localStorage.clear();
+        location.reload(true);
+    
 
-
-
-
-
+    });
 
 
 

@@ -50,9 +50,13 @@ The app should:
 
 + Using dayjs, get the current hour. For every hour block determine whether it is earlier or equal to the current hour using a data attribute (data-hour). If earlier, then change the class (background-color) to past, if equal change the class (background-color) to present.
 
+* css changes - class hour given top padding for readability. Text colour of past present and future classes changed to default black for better contrast. Background colours of classes present and future changed to less garish colours.
 
+* Added a clear all (items in storage) button 
 
+* Fixed the aria text for the buttons
 
+* Adjusted the fontawesome icon and added text "Save" to make it easier to read and understand the purpose of the button
 
 
 ### References
@@ -88,3 +92,5 @@ Using data attributes
 https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes<br>
 
 
+Why Bootstrap 4 and FontAwesome 5 Are A Killer Combo
+https://www.danylkoweb.com/Blog/why-bootstrap-4-and-fontawesome-5-are-a-killer-combo-GF
