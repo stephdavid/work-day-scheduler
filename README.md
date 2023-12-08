@@ -23,7 +23,7 @@ https://stephdavid.github.io/work-day-scheduler/
 
 **View with an stored entry in an hour block**
 
-![one stored entry view ](work-day-scheduler.png)
+![one stored entry view ](work-day-scheduler2.png)
 
 ---
 
